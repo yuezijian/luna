@@ -10,16 +10,6 @@ namespace xlib
     typedef int    int32;
     typedef float  float32;
     typedef double float64;
-
-    class type
-    {
-    public:
-        template < typename ts, typename td >
-        static td to_type( ts value )
-        {
-            return static_cast< td >( value );
-        }
-    };
 }
 
 
